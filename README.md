@@ -141,21 +141,6 @@ fortif-ai-chatbot/
 - Accessibility attributes (ARIA labels, roles, keyboard navigation)
 - Real-time voice command processing
 
-### Voice Navigation System
-
-- **Universal microphone** for continuous voice commands
-- **Speech recognition** using Web Speech API
-- **Command processing** for navigation, reminders, and calendar events
-- **Auto-restart** functionality for seamless voice interaction
-- **Error handling** with user-friendly feedback
-
-### Key Dependencies
-
-- **Frontend**: React 18, TypeScript, Axios, Web Speech API
-- **Backend**: Express, OpenAI SDK, Groq AI, CORS, node-cron
-- **Styling**: Custom CSS with senior-friendly design principles
-- **Development**: Concurrently, Nodemon for hot reloading
-
 ## 🎤 Voice Commands
 
 The application supports hands-free navigation and interaction through voice commands:
@@ -224,29 +209,6 @@ The application supports hands-free navigation and interaction through voice com
 - AI API costs for production use (mitigated by Groq free tier)
 - Voice commands require microphone permissions
 
-## 🚀 Future Enhancements
-
-- **Database integration** for persistent reminders and user data
-- **Enhanced voice input** with wake word detection
-- **Medication tracking** with photo recognition and scheduling
-- **Family member notifications** and sharing capabilities
-- **Offline mode** for basic functionality without internet
-- **Multi-language support** for diverse senior populations
-- **Health monitoring integration** with wearable devices
-- **Emergency contact system** with one-touch calling
-- **Advanced calendar sync** with Google Calendar and Apple Calendar
-- **Customizable themes** for personal preferences
-- **Voice training** for improved recognition accuracy
-
-## 📱 Browser Compatibility
-
-- **Chrome/Edge**: Full support including text-to-speech and voice recognition
-- **Firefox**: Full support including text-to-speech and voice recognition
-- **Safari**: Full support including text-to-speech and voice recognition
-- **Mobile browsers**: Responsive design support with touch-optimized interface
-- **Screen readers**: Compatible with NVDA, JAWS, and VoiceOver
-- **Keyboard navigation**: Full accessibility support for motor-impaired users
-
 ## 🎯 Component Overview
 
 ### ChatInterface.tsx
@@ -268,24 +230,3 @@ Comprehensive daily dashboard featuring weather, meal planning, home maintenance
 ### Voice Navigation System
 
 Universal speech recognition integrated throughout the application for hands-free operation and accessibility.
-
-## 🤝 Contributing
-
-This is a take-home assessment project for FORTif.ai demonstrating modern web development practices for senior-friendly applications. For production use, consider:
-
-- Adding proper error handling and logging
-- Implementing user authentication and profiles
-- Adding comprehensive testing (unit, integration, e2e)
-- Setting up CI/CD pipelines and automated deployment
-- Adding monitoring, analytics, and performance optimization
-- Implementing data persistence and backup systems
-- Adding security measures and data privacy compliance
-- Creating comprehensive documentation and user guides
-
-## 📄 License
-
-MIT License - Feel free to use for learning and development purposes.
-
----
-
-**Built with ❤️ for senior citizens and their families**
